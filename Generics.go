@@ -47,12 +47,11 @@ func main() {
   var s = []string{"foo", "bar", "zoo"}
 
   fmt.Println("index of zoo: ", SlicesIndex(s, "zoo"))
-
   _ = SlicesIndex[[]string, string](s, "zoo")
 
   lst := List[int]{}
   lst.Push(10)
-  lst.Push(13)
+  //lst.Push(13)
   lst.Push(23)
   fmt.Println("list: ", lst.AllElements())
   
