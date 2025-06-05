@@ -29,14 +29,14 @@ func main(){
   sp := &s
   fmt.Println(sp.age)
 
-  sp.age = 51
+  sp.age = 52
   fmt.Println(sp.age)
 
   dog := struct {
 	  name string
 	  isGood bool
       }{
-        "Rex", true,
+        "Rex", false,
       }
    
    fmt.Println(dog)
